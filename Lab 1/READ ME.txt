@@ -1,0 +1,16 @@
+READ ME FILE
+
+Input parameters:
+1. desired x-dimension of the screen
+2. desired y-dimension of the screen
+3. excel file name with .csv
+4. point size of each point
+
+I have used the following values as command line argument:
+700 700 iris4.csv 5
+
+I have implemented all functionailities with bonus point criteria.
+Also find attached the iris.csv which is the same.
+The snapshot of final output is also given.
+Only number of species (=3) is hard-coded and all other parameters can be changed. 
+So it should work with other csv files as well.

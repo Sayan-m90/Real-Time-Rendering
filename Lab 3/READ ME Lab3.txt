@@ -1,0 +1,18 @@
+The humanoid moves by swinging arms and legs
+controls are:
+w: move forward by swinging arms and legs
+s: move backward by swinging arms and legs
+by swinging the humanoid follows a humain gait patter, where knees and arms break as it runs
+h: move right hand to say 'hi'. for use, continuous press 'h'
+g: move left hand to say 'hi'. for use, continuous press 'g'
+a: rotate body left
+d: rotate body right
+z: rotate head left
+x: rotate head right
+The 'z' and 'x' moves the eyes and mouth as well.
+The neck moves up and down as the body runs. This is to give it a more human like movement.
+To scale up and down, use rigth mouse click
+To rotate the entire scene, click mouse left button
+q: quit
+The body is made of two cylinder
+The hair is sphere

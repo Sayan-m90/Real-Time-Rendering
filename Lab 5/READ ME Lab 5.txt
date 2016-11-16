@@ -1,0 +1,56 @@
+Ply models used:
+happy2.ply
+dragon2.ply
+hind2.ply
+
+These are not attached as the size is too large, I have mailed them to the grader Paul.
+
+Two features of lightning:
+1. The light source acts as a cylinder which controls the specular lightning on the scene
+2. The diffuse light acts as sort of a disco light which changes color automatically
+3. The light source is "inside" the happy buddha figure, so use arrow keys to move the light key and make it visible. It sort of illuminates the statue.
+It was stated that programs should include models as input, but I did not do that as the aesthetics of the scene would change and the models have been scaled and position just for the right model.
+The controls of lightning are:
++/-:	the shininess of the material increase/ decrease
+3: the position of the light moves in positive x-axis
+4: the position of the light moves in negative x-axis
+5: the position of the light moves in positive y-axis
+6: the position of the light moves in negative y-axis
+7: the position of the light moves in positive z-axis
+8: the position of the light moves in negative z-axis
+space: the ambient light increases
+
+Controls of the scene are:
+w: move forward the scene
+s: move backward the scene
+a: move scene left
+d: move scene right
+q: quit
+
+mouse controls:
+same as earlier, left click move for rotation,
+right click move for scaling
+
+
+
+
+
+
+The controls of the humaniod remains the same as Lab 3:
+The humanoid moves by swinging arms and legs
+controls are:
+w: move forward by swinging arms and legs
+s: move backward by swinging arms and legs by swinging the humanoid follows a humain gait patter, where knees and arms break as it runs 
+h: move right hand to say 'hi'. for use, continuous press 'h'
+g: move left hand to say 'hi'. for use, continuous press 'g'
+a: rotate body left
+d: rotate body right
+z: rotate head left
+x: rotate head right
+The 'z' and 'x' moves the eyes and mouth as well.
+The neck moves up and down as the body runs. This is to give it a more human like movement.
+To scale up and down, use rigth mouse click
+To rotate the entire scene, click mouse left button
+q: quit
+The body is made of two cylinder
+The hair is sphere

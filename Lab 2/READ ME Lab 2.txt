@@ -1,0 +1,23 @@
+This is a shooting game equipped with a gun and a moving target that randomly changes position.
+The controls of the gun are:
+
+w		move up
+s		move down
+space		shoot bullets
+a		rotate gun- results in speed of bullet to slow down, each time you rotate the gun
+1		rotate main/back handle- results in the target to scale down ( along the x-axis each time you rotate)
+2		rotate second/front handle- results in the target to scale down ( along the y-axis each time you rotate)
+Thus if you press 1 and 2 continuously and alternately, the target will disappear.
+To win the game, you have to shoot the target atleast once.
+
+In order to make the game more interesting, the target cannot be shot at a large distance when the gun is rotated.
+So if the gun is rotated by more than 90degree, make sure you bring it really close to the target in order to shoot,
+else the bullet passes over the target without making contact. You have to move up or down, bringing your gun closer so as
+to make a successful hit.
+
+Features:
+All blocks are in 3D.
+Two stacks are maintained, one for the gun, one for the target.
+The bullets and target rotate in real time
+There three user controlled rotational movements: main gun (with all sub parts), back handle, front handle.
+MainDisplay() is used to display the main gun, from display we call mainDisplay() and control the bullet.
